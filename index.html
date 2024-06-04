@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+    <div class="container">
+        <h1>Registration</h1>
+        <form id="registrationForm">
+            <input type="email" id="regEmail" placeholder="Email" required>
+            <input type="password" id="regPassword" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+
+        <h1>Login</h1>
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <div id="loggedInUser"></div>
+
+        <h1>To-Do List</h1>
+        <form id="todoForm">
+            <input type="text" id="todoTitle" placeholder="Title" required>
+            <input type="text" id="todoDescription" placeholder="Description" required>
+            <input type="date" id="todoDate" required>
+            <button type="submit">Add To-Do</button>
+        </form>
+
+        <div id="todoList"></div>
+    </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
